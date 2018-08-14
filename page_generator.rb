@@ -1,4 +1,5 @@
 require 'erb'
+require 'date'
 
 
 def process_erb(string)
@@ -47,6 +48,7 @@ end
 #     puts file`
 #   end
 ##  Here the * character represents a wildcard
+@name = "Devin"
 
 puts "================================================"
 puts "=== Converting files in /views to html ========="
